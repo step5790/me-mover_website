@@ -379,6 +379,8 @@ a.btn:hover {
   background-image: url('../assets/images/FP-TRY-edited-wide-1-scaled.jpg');
   background-size: 100%;
   background-repeat: no-repeat;
+  width: 100vw;
+  height: 65vw;
 }
 
 
@@ -429,10 +431,10 @@ a.btn:hover {
 
 
 /* video section styles on index page */
-#video {
+/* #video {
   margin: 0;
   padding: 0;
-}
+} */
 #video-bg {
   object-fit: cover;
   object-position: center;
