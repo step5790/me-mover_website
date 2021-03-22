@@ -504,26 +504,32 @@ a.btn:hover {
 }
 
 .image1 img {
-  width: 20vw;
+  width: 40%;
+  min-width: 40%;
   height: auto;
-  position: relative;
+  position: absolute;
   z-index: 1;
-}
-
-.image2 img {
-  width: 15vw;
-  height: auto;
-  z-index: 2;
-}
-
-.image1 img {
   border-radius: 100%;
+  bottom: 3vw;
+  right: 10vw;
 }
 
 .image2 img {
   border-radius: 100%;
   position: absolute;
-  bottom: -65px;
-  left: 132px;
+  bottom: 0vw;
+  left: 13vw;
   border: solid 13px white;
+  width: 27%;
+  min-width: 27%;
+  height: auto;
+  z-index: 2;
+}
+
+/* media query */
+
+@media only screen and (max-width: 800px) {
+  #index_page #group-training {
+    background-color: red;
+  }
 }
