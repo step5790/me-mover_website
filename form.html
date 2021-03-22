@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/form.css" />
+    <title>Book a test drive</title>
+  </head>
+  <body id="form_page">
+    <header>
+      <nav>
+        <a href="index.html">
+          <img src="assets/images/Logo.PNG" alt="logo" class="header_logo" />
+        </a>
+        <ul class="navbar">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="#">SHOP</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="pic_left">
+        <!-- <img src="assets/images/me-mover_white.png" alt="photo of the me-mover"> -->
+      </div>
+      <div class="form">
+        <h1>
+          new, compact, step-driven vehicle.
+          <br />
+          it's your move!
+        </h1>
+        <p>
+          Book a free test drive - Fill in the form or contact us at 50222240
+        </p>
+        <form name="test-drive" method="POST" data-netlify="true">
+          <label>
+            First name
+            <input type="text" required placeholder="&nbsp;* John" />
+          </label>
+          <label>
+            Last name
+            <input type="text" required placeholder="&nbsp;* Doe" />
+          </label>
+          <label>
+            Email
+            <input
+              type="email"
+              required
+              placeholder="&nbsp;* example@example.dk"
+            />
+          </label>
+          <label>
+            Phone
+            <input type="text" required placeholder="&nbsp;* +45 22 22 22 22" />
+          </label>
+          <label>
+            Postal code
+            <input type="text" placeholder="&nbsp; 2720" />
+          </label>
+          <div class="check" >
+            <input type="checkbox" name="info_use" id="info_use" required/> <label for="info_use">&nbsp; * Me-mover may use the information provided to process this form in accordance with Me-Movers Privacy Policy</label>
+          </div>
+          <div class="check" >
+            <input type="checkbox" name="signup" id="signup" /><label for="signup">&nbsp; Yes please sign up for the Me-Movers newsletter</label>
+          </div>
+          <button class="btn">send</button>
+        </form>
+      </div>
+      <div class="pic_right">
+      </div>
+    </main>
+    <footer>
+      <article>
+        <div>
+          <p class="upper">me-mover aps</p>
+          <p>Jægersborg Alle 1D</p>
+          <p>2920 Charlottenlund</p>
+        </div>
+        <div>
+          <p>CVR: 41369698</p>
+          <p>Phone: (+45) 50 22 22 40</p>
+          <p>Mail: info@me-mover.dk</p>
+        </div>
+      </article>
+      <article>
+        <div>
+          <p>&copy; 2021 Crosstepper Me-Mover ApS</p>
+          <p>All rights reserved</p>
+        </div>
+        <div>
+          <img src="assets/images/Logo med blå baggrund.PNG" alt="logo" />
+        </div>
+      </article>
+    </footer>
+  </body>
+</html>
